@@ -1,0 +1,25 @@
+.threejs {
+    margin-top: 2rem;
+    display: flex;
+    align-content: center;
+    align-items: center;
+    flex-direction: column;
+    position: absolute;
+}
+
+
+.threejs__go__to__home__link {
+    text-decoration: none;
+    font-size: 20px;
+    color: chartreuse;
+    margin: 20px 0;
+}
+
+.threejs__canvas__container {
+    height: 100vh;
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: -1;
+}
